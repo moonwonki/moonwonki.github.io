@@ -22,6 +22,11 @@ discus-identifier: mr-brown # add your discus identifier
 # Tracker
 analytics: # Google Analytics
 
+# Post setting Custom
+futrue: true
+include:
+  - _posts
+
 # Build Settings
 markdown: kramdown
 plugins:

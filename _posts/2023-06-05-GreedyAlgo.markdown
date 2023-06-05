@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Greedy Algorithm"
-date: 2023-06-05 13:09:09 +0300
+date: 2023-06-04 13:09:09 +0300
 description: What is Greedy Algorithm?
+published: true
 ---
 
 # 그리디 알고리즘이란?
