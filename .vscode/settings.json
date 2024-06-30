@@ -2,4 +2,6 @@
     "markdown.copyFiles.destination": {
         "/_posts/*": "/assets/images/${documentBaseName}/"
     },
+    "editor.tabCompletion": "onlySnippets",
+    "editor.snippetSuggestions": "top",
 }

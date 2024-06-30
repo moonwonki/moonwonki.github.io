@@ -213,7 +213,7 @@ sass:
 
 
 # Outputting
-permalink: /:title # /:categories/:title/
+permalink: /:categories/:title/
 timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 

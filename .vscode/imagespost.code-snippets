@@ -1,0 +1,10 @@
+{
+    "Insert Alt Text Snippet": {
+        "scope": "Markdown, md, markdown",
+        "prefix": "!!",
+        "body": [
+            "![alt text]({{ \"\" | relative_url }})"
+        ],
+        "description": "Inserts the alt text snippet"
+    }
+}

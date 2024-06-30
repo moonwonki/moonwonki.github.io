@@ -1,0 +1,24 @@
+{
+    "Blog Post Template": {
+        "scope": "Markdown, md, markdown",
+        "prefix": "blogtemplate",  
+        "body": [
+            "---",
+            "layout: single",
+            "title: ",
+            "categories: ",
+            "tag: []",
+            "author_profile: false",
+            "classes: wide",
+            "toc: true",
+            "sidebar:",
+            "    nav: \"${6:counts}\"",
+            "---",
+            "",
+            "**[공지사항]** [깃 블로그 테스트 공지사항입니다.](${7:https://moonwonki.github.io})",
+            "{: .notice--warning}",
+            ""
+        ],
+        "description": "A template for the blog post."
+    }
+}

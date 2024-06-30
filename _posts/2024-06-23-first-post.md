@@ -29,10 +29,10 @@ hope you like it!
 ## 소소제목...
 이것도 되나?
 
-![alt text](../assets/images/2024-06-23-first-post/brainoverpower.png)
+![alt text]({{ "../assets/images/2024-06-23-first-post/brainoverpower.png" | relative_url }})
+
+
 
 [홈버튼](https://moonwonki.github.io){: .btn .btn--danger}
-
-
 
 
