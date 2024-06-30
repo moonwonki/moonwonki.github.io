@@ -339,3 +339,46 @@ input[type="submit"],
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+/* emoji */
+
+// Emoji 기본 크기 설정
+$base-emoji-size: 1.6em;  // h1에서 기준으로 할 기본 크기
+
+// 크기 비율 정의 (각 헤더마다 크기 비율을 조절할 수 있음)
+$h1-size: $base-emoji-size;     // h1의 크기
+$h2-size: $base-emoji-size * 0.9;  // h2는 h1보다 10% 작음
+$h3-size: $base-emoji-size * 0.8;  // h3는 h1보다 20% 작음
+$h4-size: $base-emoji-size * 0.7;  // h4는 h1보다 30% 작음
+$h5-size: $base-emoji-size * 0.6;  // h5는 h1보다 40% 작음
+$h6-size: $base-emoji-size * 0.5;  // h6는 h1보다 50% 작음
+
+h1 .emoji {
+  width: $h1-size;
+  height: $h1-size;
+}
+
+h2 .emoji {
+  width: $h2-size;
+  height: $h2-size;
+}
+
+h3 .emoji {
+  width: $h3-size;
+  height: $h3-size;
+}
+
+h4 .emoji {
+  width: $h4-size;
+  height: $h4-size;
+}
+
+h5 .emoji {
+  width: $h5-size;
+  height: $h5-size;
+}
+
+h6 .emoji {
+  width: $h6-size;
+  height: $h6-size;
+}
