@@ -1,0 +1,10 @@
+{
+    "Insert line new feed": {
+        "scope": "Markdown, md, markdown",
+        "prefix": "개행",
+        "body": [
+            "<br/>"
+        ],
+        "description": "Inserts the line new feed"
+    }
+}
